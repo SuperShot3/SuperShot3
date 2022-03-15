@@ -78,7 +78,7 @@
                     <assembleDirectory>target</assembleDirectory>
                     <programs>
                         <program>
-                            <mainClass>Bot.Main</mainClass>
+                            <mainClass>com.example/Bot.java</mainClass>
                             <name>Telegrambot</name>
                         </program>
                     </programs>
