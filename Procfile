@@ -1,1 +1,1 @@
-worker: sh target/bin/Telegrambot
+worker: sh target/bot
