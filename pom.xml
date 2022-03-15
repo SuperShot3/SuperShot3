@@ -40,11 +40,6 @@
         <!-- https://mvnrepository.com/artifact/org.openjfx/javafx-base -->
 
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
@@ -83,7 +78,7 @@
                     <assembleDirectory>target</assembleDirectory>
                     <programs>
                         <program>
-                            <mainClass>com.example.bot</mainClass>
+                            <mainClass>com.example.Bot.Main</mainClass>
                             <name>Telegrambot</name>
                         </program>
                     </programs>
@@ -97,8 +92,6 @@
                     </execution>
                 </executions>
             </plugin>
-
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
