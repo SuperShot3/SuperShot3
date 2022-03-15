@@ -32,6 +32,7 @@ public class Bot extends TelegramLongPollingBot {
     }
 
     public static class Main {
+
         public static void main(String[] args) {
             try{
                 TelegramBotsApi telegramBotsApi = new TelegramBotsApi(DefaultBotSession.class);
