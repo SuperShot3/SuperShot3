@@ -29,7 +29,7 @@ public class Bot extends TelegramLongPollingBot {
         }
     }
 
-    public static class Main{
+    public static class Main {
         public static void main(String[] args) throws TelegramApiException {
             TelegramBotsApi telegramBotsApi = new TelegramBotsApi(DefaultBotSession.class);
             telegramBotsApi.registerBot(new Bot());
